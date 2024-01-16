@@ -1,0 +1,80 @@
+$date
+	Tue Jan 16 17:42:37 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$scope module dut $end
+$var wire 192 ! clkin_data [191:0] $end
+$var wire 96 " in_data [95:0] $end
+$var wire 96 # out_data [95:0] $end
+$var wire 30 $ celloutsig_3z [29:0] $end
+$var wire 2 % async_signal_8 [1:0] $end
+$var wire 2 & async_signal_7 [1:0] $end
+$var wire 5 ' async_signal_6 [4:0] $end
+$var wire 1 ( async_signal_5 $end
+$var wire 1 ) async_signal_4 $end
+$var wire 1 * async_signal_3 $end
+$var wire 1 + async_signal_2 $end
+$var wire 1 , async_signal_1 $end
+$var wire 1 - async_signal_0 $end
+$var wire 15 . _4_ [14:0] $end
+$var wire 30 / _1_ [29:0] $end
+$var wire 30 0 _0_ [29:0] $end
+$var reg 6 1 _2_ [5:0] $end
+$var reg 5 2 _3_ [4:0] $end
+$var reg 6 3 celloutsig_0z [5:0] $end
+$var reg 15 4 celloutsig_1z [14:0] $end
+$var reg 5 5 celloutsig_2z [4:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 5
+b0 4
+b0 3
+b0 2
+b0 1
+b0 0
+b0 /
+b0zz000000zz .
+0-
+0,
+0+
+0*
+0)
+0(
+b0 '
+bz &
+bz %
+b0 $
+b0 #
+b0 "
+b0 !
+$end
+#7
+1-
+b10000001100010111010001010000111 !
+#8
+b11101 '
+b11101zz111011zz .
+b111011 3
+0-
+b1000111110000110000111011101100 !
+#9
+b11010000000000000000000000000000000000000000000000000000000000 #
+b110100000000000000000000000000 $
+b110100111011000000000000000000 0
+b111010011101100 4
+1*
+1(
+b110010111101100110011100111000010000000000000000000000000000000001000111110000110000111011101100 !
+#12
